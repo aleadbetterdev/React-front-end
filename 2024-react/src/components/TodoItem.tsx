@@ -2,6 +2,8 @@
 Components MUST return something
 Propts are function arguements that TS and react can work with */
 
+import { Todo } from "../types/todo";
+
 interface TodoItemProps {
     todo: Todo;
     onCompletedChange: (id: number, completed: boolean) => void;
